@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ntoric — Coming Soon</title>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Manrope', sans-serif;
+        }
+
+        body {
+            background: #F7FAFB;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 24px;
+        }
+
+        .card {
+            background: #FFFFFF;
+            border-radius: 24px;
+            padding: 64px 48px;
+            max-width: 720px;
+            width: 100%;
+            text-align: center;
+            box-shadow: 0 20px 60px rgba(15, 23, 42, 0.08);
+            border: 1px solid #E6EEF1;
+            animation: fadeUp 0.8s ease forwards;
+        }
+
+        @keyframes fadeUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .logo {
+            font-size: 42px;
+            font-weight: 700;
+            letter-spacing: -1px;
+            color: #0F172A;
+            margin-bottom: 16px;
+        }
+
+        .logo-image {
+            width: 150px;
+        }
+
+        .tagline {
+            font-size: 26px;
+            font-weight: 600;
+            color: #1F6F78;
+            margin-bottom: 16px;
+        }
+
+        .description {
+            color: #5B6B73;
+            font-size: 18px;
+            margin-bottom: 40px;
+            line-height: 1.6;
+        }
+
+        .form {
+            display: flex;
+            gap: 12px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        input {
+            height: 52px;
+            padding: 0 16px;
+            border-radius: 14px;
+            border: 1px solid #E6EEF1;
+            min-width: 260px;
+            font-size: 16px;
+            outline: none;
+            transition: 0.2s ease;
+        }
+
+        input:focus {
+            border-color: #1F6F78;
+            box-shadow: 0 0 0 4px rgba(31,111,120,0.08);
+        }
+
+        button {
+            height: 52px;
+            padding: 0 28px;
+            border: none;
+            border-radius: 14px;
+            background: #1F6F78;
+            color: white;
+            font-weight: 600;
+            font-size: 16px;
+            cursor: pointer;
+            transition: 0.25s ease;
+        }
+
+        button:hover {
+            background: #185A61;
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(31,111,120,0.25);
+        }
+
+        .footer {
+            margin-top: 40px;
+            font-size: 14px;
+            color: #5B6B73;
+        }
+
+        @media (max-width: 600px) {
+            .card {
+                padding: 48px 28px;
+            }
+
+            .logo {
+                font-size: 34px;
+            }
+
+            .tagline {
+                font-size: 22px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <div class="logo">
+        <img src="ntoric_logo.png" class="logo-image">
+    </div>
+
+    <div class="tagline">Intelligence is arriving.</div>
+
+    <div class="description">
+        We're building something powerful for the future of intelligent platforms.
+        Join the waitlist and be the first to experience ntoric.
+    </div>
+
+    <form class="form" onsubmit="event.preventDefault()">
+        <input type="email" placeholder="Enter your email" required>
+        <button type="submit">Notify Me</button>
+    </form>
+
+    <div class="footer">
+        © <span id="year"></span> ntoric. All rights reserved.
+    </div>
+</div>
+
+<script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
