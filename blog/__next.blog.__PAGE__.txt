@@ -1,0 +1,6 @@
+1:"$Sreact.fragment"
+2:I[22016,["/_next/static/chunks/7c92e96509cd355e.js","/_next/static/chunks/bf4cb0a372de4434.js","/_next/static/chunks/ccd4a7f831083ccd.js"],""]
+3:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+4:"$Sreact.suspense"
+0:{"buildId":"TVcfAQkhNjnBJ3Yz0s1ti","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"container mx-auto px-6 py-32 text-center","children":[["$","h1",null,{"className":"font-display font-bold text-4xl mb-6","children":"Engineering Blog"}],["$","p",null,{"className":"text-secondary-foreground text-lg mb-8 max-w-2xl mx-auto","children":"Insights on architecture, scaling, and AI integration."}],["$","$L2",null,{"href":"/","children":["$","button",null,{"className":"inline-flex items-center justify-center whitespace-nowrap rounded-sm text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-white hover:bg-primary-hover shadow-sm h-11 px-6 py-2","children":"Back to Home"}]}]]}],null,["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"loading":null,"isPartial":false}
+5:null
